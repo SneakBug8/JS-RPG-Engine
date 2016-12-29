@@ -1,0 +1,19 @@
+﻿#wrapper {
+	width: 100%;
+	min-width: 1000px;
+	background-color: black;
+}
+
+.chat {
+	width: 200px;
+	position: relative;
+	float: left;
+	display: inline-block;
+}
+
+.input-class {
+	max-width: 200px;
+	width: 200px;
+	height: 100px;
+	max-height: 100px;
+}

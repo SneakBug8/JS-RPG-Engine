@@ -1,0 +1,132 @@
+* {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+#wrapper {
+	width: 100%;
+	min-width: 200x;
+	background-color: black;
+}
+
+.chat {
+	padding-right: 10px;
+	width: 200px;
+	position: relative;
+	height: 600px;
+	float: left;
+	display: inline-block;
+}
+.left {
+	padding-right: 10px;
+	width: 200px;
+	position: relative;
+	height: 600px;
+	float: left;
+	display: inline-block;
+}
+
+.input-class {
+	max-width: 200px;
+	width: 200px;
+	height: 50px;
+	max-height: 100px;
+}
+
+.log-class {
+	max-width: 200px;
+	max-height: 450px;
+	width: 200px;
+	height: 450px;
+	overflow: auto;
+}
+
+.sendButton {
+	height: 50px;
+	width: 100%;
+}
+
+.tabs{
+    display:inline-block;
+    width: 200px;
+}
+.tabs > div{
+    padding-top:10px;
+}
+.tabs ul{
+    width:200px;
+    margin:0px;
+    padding:0px;
+}
+.tabs ul:after{
+    content:"";
+    display:block;
+    clear:both;
+    height:5px;
+    background:#46c765;
+}
+.tabs ul li{
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    display:block;
+    float:left;
+    padding:10px 15px;
+    background:#e9eaeb;
+    color:#707070;
+}
+.tabs ul li.active, .tabs ul li.active:hover{
+    background:#46c765;
+    color:#fff;
+}
+.tabs ul li:hover{
+    background:#d6d6d7;
+}
+
+
+  p {
+    line-height: 1;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+   }  
+
+
+/*Всплывающее окно на jquery */
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+left: 0px;
+}
+.b-popup .b-popup-content{
+    margin:200px auto 0px auto;
+height:100%;
+    max-width:500px;
+    max-height: 375px;
+    padding:10px;
+   background-color: #ffffff;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+
+/* RP chats */
+.me {
+    color: blue;
+   }
+.alert {
+    color: red;
+   }
+.try {
+    color: #6600ff; /* Dark blue*/
+   }
+.do {
+    color: orange;
+   }
+.ooc {
+    color: gray;
+   }

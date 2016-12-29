@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+
+
+	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="lib/cookie.js"></script>
+	<script type="text/javascript" src="lib/tabs.js"></script>
+	<script type="text/javascript" src="lib/register.js"></script>
+	<title>The Rier Auth</title>
+	
+	</head>
+
+<body style="background: #eee;">
+	<div style="margin: 0 auto; text-align: center;width:250px; background-color: white; padding: 15px 10px; border-radius: 10px; margin-top: 3%">
+		<h2>Sign in or Sign up</h2>
+		<p class="bg-danger" id="alarm"></p>
+		<input id="nickname" style="padding: 5px 12px;border-top-left-radius:5px;border-top-right-radius:5px;border:1px solid black;" placeholder="Nickname..."></input>
+		<input id="password" style="padding: 5px 12px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:1px solid black;" placeholder="Your password..."></input>
+		<p>If you have code to activate, write it there:</p>
+		<input id="code" placeholder="Code..."></input>
+		<br>
+		<button onClick="register()">Sign up</button>
+		<button onClick="login()">Sign in</button>
+	</div>
+</body>
+
+</html>
